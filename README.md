@@ -28,3 +28,30 @@ This project demonstrates how to combine retrieval-augmented generation (RAG) an
 
 ---
 
+## ⚙️ Installation
+### 1️⃣ Clone this repository
+```bash
+git clone https://github.com/<your-username>/ollama-chatbot.git
+cd ollama-chatbot
+
+2️⃣ Create a virtual environment
+python -m venv venv
+source venv/bin/activate       # (Windows) venv\Scripts\activate
+
+3️⃣ Install dependencies
+pip install -r requirements.txt
+
+
+4️⃣ Install and start Ollama
+Download from ollama.ai/download
+Pull a model (for example, Mistral):
+ollama pull mistral
+
+
+▶️ Run the App
+streamlit run local_bot.py
+Then open your browser at http://localhost:8501
+
+🔒 Privacy
+Runs completely offline with Ollama — no data leaves your device.
+
