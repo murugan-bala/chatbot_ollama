@@ -16,7 +16,6 @@ prompt = ChatPromptTemplate.from_messages([
     ("human", "{input}")
 ])
 
-print(f'Promt is : {prompt}')
 # Create the chain
 chain = prompt | llm
 
