@@ -31,8 +31,8 @@ This project demonstrates how to combine retrieval-augmented generation (RAG) an
 ## ⚙️ Installation
 ### 1️⃣ Clone this repository
 ```bash
-git clone https://github.com/<your-username>/ollama-chatbot.git
-cd ollama-chatbot
+git clone https://github.com/murugan-bala/chatbot_ollama.git
+cd chatbot_ollama
 
 2️⃣ Create a virtual environment
 python -m venv venv
